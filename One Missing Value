@@ -1,0 +1,14 @@
+// One Missing Value
+// finding B, using set A, to maintain average C
+
+A = (96, 94, 97, 93, 92, 96)                  // enter all scores           
+C = 95                                        // enter desired average
+B = ((C * (len(A) + 1))) - (sum(A))           // calculate B
+print(B)                                      // print B
+
+
+
+
+// math:
+# (sum(A) + B)/ (len(A) + 1) = C              
+# (C * (len(A) + 1)) = (sum(A) + B)
